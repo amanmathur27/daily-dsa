@@ -1,7 +1,9 @@
-// C++ code to check whether a given number is prime or not
+// Printing all the prime numbers in a given range
+
 
 #include <iostream>
 using namespace std;
+
 bool chkPrime(int n)
 {
     if (n <= 1)
@@ -19,15 +21,15 @@ bool chkPrime(int n)
 }
 int main()
 {
-    int n;
-    cout << "Enter any number\n";
-    cin >> n;
-    if (chkPrime(n))
+    int s, e;
+    cout << "Enter the range for printing prime\n";
+    cin >> s >> e;
+    for (int i = s; i < e; i++)
     {
-        cout << "The given number " << n << " is Prime\n";
-    }
-    else{
-        cout << "The given number " << n << " is not Prime\n";
+        if (chkPrime(i))
+        {
+            cout << i << " ";
+        }
     }
     return 0;
 }
