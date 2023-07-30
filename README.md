@@ -28,4 +28,10 @@ I encourage contributions from the community! If you have a more optimized solut
   <li>
     printPrime numbers
   </li>
+  <li>
+    Count Palindrome in a given range (countpalind)
+  </li>
+  <li>
+    count digits in a number (countdigit)
+  </li>
 </ul>
