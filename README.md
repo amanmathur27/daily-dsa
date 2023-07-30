@@ -35,3 +35,10 @@ I encourage contributions from the community! If you have a more optimized solut
     count digits in a number (countdigit)
   </li>
 </ul>
+<br>
+<h3>ARRAYS</h3>
+<ul>
+  <li>
+    Reverse of an array (revarr.cpp)
+  </li>
+</ul>
